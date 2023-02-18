@@ -1,7 +1,7 @@
 import React, { useState } from "react";
+import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 import "./Calenderbox.css";
-import Calendar from "react-calendar";
 
 const Calender = () => {
   const [value, onChange] = useState(new Date());
@@ -9,9 +9,9 @@ const Calender = () => {
     <div className="clndr">
       <span>Calender</span>
       <Calendar
+        className={"react-calendar"}
         onChange={onChange}
         value={value}
-        className={"react-calendar"}
         selectRange={true}
       />
     </div>

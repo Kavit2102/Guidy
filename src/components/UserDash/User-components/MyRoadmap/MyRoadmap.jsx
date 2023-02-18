@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import MainLogo from "../../../MainLogo/MainLogo";
 import "./MyRoadmap.css";
 
@@ -6,14 +7,16 @@ const MyRoadmap = () => {
   return (
     <div className="myroadmap">
       <MainLogo />
-      <di className="page-body">
+      <div className="page-body">
         <ul className="year-list">
           <div className="term-container">
             <p style={{ fontSize: 20 }}>Term open for Registrations</p>
             <select name="term" id="term">
-              <option value="">Select a term</option>
-              <option value="">Fall</option>
-              <option value="">Spring</option>
+              <option value="term">Select a term</option>
+              <option value="fall">
+                <Link to={"/userdash/myroadmap/fall"}>Fall</Link>
+              </option>
+              <option value="spring">Spring</option>
             </select>
           </div>
           <div className="year-container">
@@ -31,8 +34,18 @@ const MyRoadmap = () => {
               <a href="/courses/4">Fourth Year</a>
             </li>
           </div>
+          <button
+            style={{
+              width: "250px",
+              height: "32px",
+              borderRadius: "12px",
+              marginTop: "1rem",
+            }}
+          >
+            <a href="/">Continue</a>
+          </button>
         </ul>
-      </di>
+      </div>
     </div>
   );
 };
