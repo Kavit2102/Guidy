@@ -13,9 +13,7 @@ const MyRoadmap = () => {
             <p style={{ fontSize: 20 }}>Term open for Registrations</p>
             <select name="term" id="term">
               <option value="term">Select a term</option>
-              <option value="fall">
-                <Link to={"/userdash/myroadmap/fall"}>Fall</Link>
-              </option>
+              <option value="fall">Fall </option>
               <option value="spring">Spring</option>
             </select>
           </div>
@@ -42,7 +40,7 @@ const MyRoadmap = () => {
               marginTop: "1rem",
             }}
           >
-            <a href="/">Continue</a>
+            <Link to={"/fall"}>Continue</Link>
           </button>
         </ul>
       </div>

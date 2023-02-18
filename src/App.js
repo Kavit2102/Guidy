@@ -8,6 +8,7 @@ import Login from "./components/Login/Login";
 import SignUp from "./components/SignUp/SignUp";
 import UserDash from "./components/UserDash/UserDash";
 import { Navbar } from "react-bootstrap";
+import Fall from "./components/Fall/Fall";
 
 function App() {
   const [Name, setName] = useState("");
@@ -23,6 +24,7 @@ function App() {
               path="/userdash/*"
               element={<UserDash Name={Name} />}
             />
+            <Route exact path="/fall" element={<Fall />} />
           </Routes>
         </div>
       </div>

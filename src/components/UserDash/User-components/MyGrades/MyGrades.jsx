@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./MyGrades.css";
 
 const MyGrades = () => {
@@ -15,7 +16,9 @@ const MyGrades = () => {
 
         <tr>
           <td>1</td>
-          <td>Programming Concepts</td>
+          <td>
+            <Link to={"/userdash/programming-concepts"}>Programming Concepts</Link>
+          </td>
           <td></td>
         </tr>
         <tr>

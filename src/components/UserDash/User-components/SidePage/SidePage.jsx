@@ -7,7 +7,8 @@ import Calender from "../Calender/Calender";
 import MyRoadmap from "../MyRoadmap/MyRoadmap";
 import MyTasks from "../MyTasks/MyTasks";
 import MyGrades from "../MyGrades/MyGrades";
-import Fall from "../Fall/Fall";
+import Fall from "../../../Fall/Fall";
+import ProgrammingConcepts from "../programming-concepts/programming-concepts";
 
 const SidePage = () => {
   return (
@@ -18,7 +19,11 @@ const SidePage = () => {
       <Route exact path="/myroadmap" element={<MyRoadmap />} />
       <Route exact path="/mytasks" element={<MyTasks />} />
       <Route exact path="/mygrades" element={<MyGrades />} />
-      <Route exact path="/fall" element={<Fall />} />
+      <Route
+        exact
+        path="/programming-concepts"
+        element={<ProgrammingConcepts />}
+      />
     </Routes>
   );
 };
