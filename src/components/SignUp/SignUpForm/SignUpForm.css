@@ -1,0 +1,58 @@
+.signup {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .signup .images {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 4rem;
+  }
+  
+  .signup #logo {
+    height: 80px;
+  }
+  
+  .signup form,
+  .signup .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .signup form input {
+    box-sizing: border-box;
+    width: 383px;
+    height: 44px;
+    padding: 5px 10px;
+    background: #f8edff;
+    border: 1px solid #c5a5fa;
+    box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.25), 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+  }
+  
+  .signup form button {
+    box-sizing: border-box;
+    width: 283px;
+    height: 32px;
+    background: #c6a4fa;
+    border: 1px solid #000000;
+    box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.25), 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    font-weight: 600;
+    outline: 0;
+    cursor: pointer;
+  }
+  
+
+  .signup form button:hover{
+    width: 286px;
+    height: 35px;
+}
+
+.signup-navigation .navlogin{
+    color: red;
+}

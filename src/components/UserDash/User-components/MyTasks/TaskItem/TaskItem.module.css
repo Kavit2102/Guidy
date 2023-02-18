@@ -1,0 +1,58 @@
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .6em;
+  padding: .3em;
+  margin-right: 2.5rem;
+}
+
+.task-group {
+  display: flex;
+  align-items: center;
+  gap: .5em;
+}
+
+.label {
+  position: relative;
+  cursor: pointer;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.checkbox:checked{
+  accent-color: black;
+}
+  
+.checkbox:hover{
+  cursor: pointer;
+  width: 14px;
+  height: 14px;
+}
+
+.checkbox:checked+label {
+    text-decoration: line-through;
+    color: #bdc4cd ;
+}
+
+.task-group button{
+  border: none;
+}
+
+.task-group button:hover{
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.task-group button>span{
+  margin-left: -15px;
+}
+
+.task-group .update>span{
+  color: #C57BEF;
+}
+
+.task-group .delete>span{
+  color: red; 
+}

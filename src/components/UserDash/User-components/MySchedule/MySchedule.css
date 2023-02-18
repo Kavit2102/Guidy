@@ -1,0 +1,54 @@
+.myschedule {
+  margin: 15px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.myschedule>span {
+  color: #fd242a;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 2% 0;
+}
+
+.myschedule #subheading {
+  margin-top: -1rem;
+}
+
+.myschedule table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+td,
+th {
+  padding: 12px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #ece3fe;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+button,
+#semister {
+  cursor: pointer;
+  width: 120px;
+  height: 30px;
+  background: #c6a4fa;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+#semister {
+  width: 9rem;
+  position: relative;
+  left: 81.5%;
+  margin-top: 2rem;
+}

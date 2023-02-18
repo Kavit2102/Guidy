@@ -1,0 +1,12 @@
+.perfbar{
+    background: #F8EDFF;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.perfbar>span{
+    color:#FD242A;
+    font-weight: 400;
+    font-size: 18px; 
+    margin-left: 4%;   
+}

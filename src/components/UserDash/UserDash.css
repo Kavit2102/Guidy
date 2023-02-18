@@ -1,0 +1,9 @@
+.userDash{
+    grid-template-columns: 12rem auto;
+    display: grid;
+}
+
+.userDash2{
+    grid-template-rows: 10% auto;
+    display: grid;
+}

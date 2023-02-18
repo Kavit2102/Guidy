@@ -1,0 +1,24 @@
+.mainlogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  position: relative;
+  width: 70%;
+  height: 120px;
+  display: flex;
+  /* left: 20%; */
+  flex-direction: column;
+  top: 4.5rem;
+}
+
+.laptop {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: 8%;
+  width: 70%;
+  height: 85%;
+}

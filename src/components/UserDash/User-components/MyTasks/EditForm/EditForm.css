@@ -1,0 +1,37 @@
+.wrapper2{
+  position: relative;
+  background: #F8EDFF;
+  width: 200%;
+  border-radius: 10px;
+}
+
+.wrapper2>input{
+    width: 93%;   
+    padding: 12px;
+    background: #F8EDFF;
+    border: none;
+    border-radius: 10px;
+}
+
+.wrapper2>input:focus{
+    outline: none;
+}
+
+.wrapper2>button{
+    position: relative;
+    display: flex;
+    background: #F8EDFF;
+    border-radius: 10px;
+    margin-top: -39px;
+    margin-left: 105%;
+    padding: 5px;    
+    border: none;
+}
+
+.wrapper2>button:hover{
+    cursor: pointer;
+}
+
+.wrapper2>button>span{
+    color: #C57BEF;
+}

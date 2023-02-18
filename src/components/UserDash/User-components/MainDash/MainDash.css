@@ -1,0 +1,18 @@
+.MainDash{
+    grid-template-columns: auto 30%;
+    display: grid;
+    margin: 15px;
+    gap: 1rem;
+}
+
+.part1{
+    grid-template-rows: 38% auto 20%;
+    display: grid;
+    gap: 1rem;
+}
+
+.part2{
+    grid-template-rows: 38% auto 20%;
+    display: grid;
+    gap: 1rem;  
+}

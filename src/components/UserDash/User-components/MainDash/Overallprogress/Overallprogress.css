@@ -1,0 +1,74 @@
+.ovrprgs{
+  background: #F8EDFF;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.ovrprgs>span{
+    color:#FD242A;
+    font-weight: 400;
+    font-size: 18px; 
+    margin-left: 6%; 
+}
+
+.prgsBar{
+  margin-left: 90px;
+}
+
+.float {  
+  animation-name: ani-float;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out; 
+  width: 200px;
+  height: 200px;
+}
+
+@keyframes ani-float {
+  0% { transform: translate(0,  20px); }
+  50% { transform: translate(0, 15px); }
+  100% { transform: translate(0, -0px); } 
+  0% { transform: rotate(45deg); }
+  50% { transform: rotate(70deg); }
+  100% { transform: rotate(120deg); }    
+}
+
+.floating{
+  animation-name: ani-floating;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out; 
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin-left: -200px;
+}
+
+@keyframes ani-floating {
+  0% { transform: translate(0,  20px); }
+  50% { transform: translate(0, 15px); }
+  100% { transform: translate(0, -0px); } 
+  0% { transform: rotate(15deg); }
+  50% { transform: rotate(30deg); }
+  100% { transform: rotate(60deg); }    
+}
+
+.dot {
+height: 80px;
+width: 80px;
+position: absolute;
+margin-top: 65px;
+margin-left: -145px;
+background: rgba(248, 237, 255, 0.61);
+border-radius: 50%;
+display: inline-block;
+}
+
+.dot-text{
+  margin-top: 20px;
+  margin-left: 6px;
+  text-align: center;
+  font-size: 14px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+}

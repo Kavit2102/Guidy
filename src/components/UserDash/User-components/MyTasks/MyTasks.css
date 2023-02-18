@@ -1,0 +1,22 @@
+.myTasks{
+    margin: 15px 0px 0px 15px;
+}
+
+.addeditTask{
+    position: relative;
+    display: flex;
+    margin-top: 2%;
+    margin-bottom:1rem;
+    grid-template-columns: auto auto;
+    gap: 21rem;
+    padding: 0px 30px;
+}
+
+.myTasks>span{
+    color:#FD242A;
+    font-weight: 400;
+    font-size: 30px; 
+    margin-left: 1%;
+}
+
+  

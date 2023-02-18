@@ -1,0 +1,4 @@
+.SignUp{
+    grid-template-columns: auto auto;
+    display: grid;
+  }

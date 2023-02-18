@@ -1,0 +1,28 @@
+.grades > p {
+  color: #fd242a;
+  font-weight: 400;
+  font-size: 30px;
+  position: relative;
+  top: 3%;
+  left: 2%;
+}
+
+.grades table {
+  width: 70%;
+  margin: 10% auto;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 12px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #ece3fe;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff;
+}

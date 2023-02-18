@@ -1,0 +1,23 @@
+.DashBG {
+  background: linear-gradient(
+    89.39deg,
+    #c6a4fa 0.57%,
+    #aec1fc 32%,
+    #9090b4 64%,
+    #f5cbef 99.54%
+  );
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.DashBGbox {
+  overflow: hidden;
+  background: #ece3fe;
+  border: 10px solid rgba(236, 227, 254, 0.59);
+  border-radius: 10px;
+  width: 93%;
+  height: 93%;
+  display: grid;
+}

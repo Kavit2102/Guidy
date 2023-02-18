@@ -1,0 +1,21 @@
+.addTask{
+    position: relative;
+    display: flex;
+    background: #F8EDFF;
+    width: 55%;
+    border-radius: 12px;
+    margin-top: 11.5%;
+}
+
+
+.mytasks{
+    display: flex;
+    background: #F8EDFF;
+    border-radius: 10px;
+    flex-direction: column;
+    position: relative;
+    margin-top: 1.5rem;
+    transition: all 300ms ease; 
+    padding-bottom: 8px;
+    padding-top: 10px;
+}
